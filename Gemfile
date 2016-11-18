@@ -30,6 +30,11 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+# this are the active admin gems that are needed for me to enable admin stuff on this ecommerce site
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'active/inherited_resources'
+gem 'devise'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
