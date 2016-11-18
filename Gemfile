@@ -31,8 +31,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'capistrano-rails', group: :development
 
 # this are the active admin gems that are needed for me to enable admin stuff on this ecommerce site
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 gem 'activeadmin', github: 'activeadmin'
-gem 'inherited_resources', github: 'active/inherited_resources'
 gem 'devise'
 
 group :development, :test do
